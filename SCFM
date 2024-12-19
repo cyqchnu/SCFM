@@ -1,11 +1,3 @@
-echo "# SCFM" >> README.md 
-git init 
-git add README.md 
-git commit -m "首次提交" 
-git branch -M main 
-git remote add origin https://github.com/cyqchnu/SCFM.git
- git push -u origin main
-
 class SobelConv(nn.Module):
     def __init__(self, channel) -> None:
         super().__init__()
